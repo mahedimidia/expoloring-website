@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/eberhard-grossgasteiger-cgEbku0EbOg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    padding-top: 30px;
+}
+.logo a{
+    text-decoration: none;
+    float: left;
+    color: #dd0;
+    padding-left: 20px;
+    font-family: arial;
+    font-size: 30px;
+    transition: 0.5s ease all;
+
+}
+.logo a:hover{
+    color: rgb(209, 142, 17);
+}
+.nav-bar nav ul{
+    display: flex;
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 05px 10px;
+    padding: 0 05px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s ease all;
+}
+nav ul li a:hover{
+    color: rgb(231, 156, 15);
+}
+.promo-title{
+ display: block;
+ float: left;
+ position: relative;
+ width: 570px;
+ top: 300px;
+ left: 15%;
+}
+.title{
+    text-align: justify;
+    color: #fff;
+    font-size:35px;
+    text-transform: capitalize;
+    padding: auto;
+}
+.btn{
+    margin-top: 10px;
+    margin-right: 11px;
+    padding: 8px 7px;
+    border-radius: 5em;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(13, 39, 155);
+    transition: 0.5s ease all;
+    
+}
+.btn:hover{
+    background-color: #dd0;
+    color: #fff;
+}
+.fa-solid{
+    padding: 0 4px;
+}
+
+
+.buttn{
+    margin-left: 65px;
+}
